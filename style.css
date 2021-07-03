@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+body{
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.navigation
+{
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    background: hsl(0, 100%, 99%);
+    transition: 0.5s;
+    overflow: hidden; 
+    font-size: 11px;
+    left: 0;
+    right: 0;
+    top: 0; 
+}
+.navigation:hover
+{
+    width:100px;
+}
+.navigation header{
+    margin-top: 35px;
+    text-align: center;
+    user-select: none;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    width: 100%;
+}
+.navigation ul li{
+    position: relative;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    text-align: inherit;
+    cursor: pointer;
+
+}
+
+.navigation ul li a{
+    position: relative;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-weight: bold;
+    
+    
+}
+a, a:hover, a:focus, a:active ::before{
+    text-decoration: none;
+    color: #5a665c; 
+}
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    left: 16px;
+    height: 5px;
+    font-size: 27px;
+}
+.main-content{
+    position: block;
+    left: 100px;
+
+}
+.main-content header {
+    display: block;
+    height: 400px;
+    left: 100px;
+    background: #fffafa;
+    height: 100px;
+}
+.main h5{
+    position: block;
+    margin-top: 35px;
+    margin-left: 130px;
+    color: #5a665c;
+    font-weight: 700;
+    font-size: 15px;
+}
+#inp1{
+    position: block;
+    margin-top: 60px;
+    margin-left: 260px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 11px;
+    font-weight: bold;
+}
+#inp2{
+    position: block;
+    margin-top: 0px;
+    margin-left: 260px;
+    border-width: 0px;
+    border-radius: 0px;
+    height: 150px;
+    text-align: center;
+}
+#inp2::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.inputs h6{
+    position: block;
+    margin-top: 20px;
+    margin-left: 750px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 12px;
+}
